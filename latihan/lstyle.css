@@ -1,10 +1,22 @@
 body {
-  background-color: #81bef7;
+  background-color: #6495ed;
 }
 
-.nama {
+.img-head {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  margin-top: 5pc;
+}
+
+.title {
   font-family: "Courier New", Courier, monospace;
-  text-align: center;
+}
+
+.subtitle {
+  letter-spacing: 10px;
+  font-family: "Raleway", sans-serif;
+  font-size: 23px;
 }
 
 img {
@@ -15,8 +27,41 @@ img {
   width: 300px;
 }
 
-#tgh {
+#about,
+#skill,
+#education,
+#contact {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: 5pc;
+}
+#about,
+#education {
+  text-align: center;
+}
+
+#skill,
+#contact {
+  text-align: left;
+}
+
+.text-about {
+  text-indent: 50px;
+  text-align: justify;
+}
+
+.socmed {
+  font-size: 28px;
+  /* float: right; */
+}
+
+.socmed a {
+  color: #ffffff;
+  font-size: 36px;
+  margin-left: 10px;
+}
+
+.socmed a:hover {
+  color: #c4d7f5;
 }
 
 p {
